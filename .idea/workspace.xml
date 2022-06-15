@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b1781658-7a6c-49c9-a74c-7a36f85669ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataSources/articleDataSources.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataSources/articleDataSources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/redis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/redis.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655280322788</updated>
       <workItem from="1655280324078" duration="730000" />
-      <workItem from="1655281366244" duration="10931000" />
+      <workItem from="1655281366244" duration="12558000" />
     </task>
     <servers />
   </component>

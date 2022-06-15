@@ -5,6 +5,7 @@ import {ArticleDataSources} from "./src/dataSources/articleDataSources"
 import {AuthorDataSources} from "./src/dataSources/authorDataSources";
 import knexConnection from "./src/config/db"
 import sqlPlugin from "./src/plugins/sql-plugin"
+import redisPlugin from "./src/plugins/redis-plugin"
 import {redisCache} from "./src/config/cache";
 
 // The ApolloServer constructor requires two parameters: your schema
@@ -20,7 +21,7 @@ const server = new ApolloServer({
     articleDataSources: new ArticleDataSources(knexConnection),
     authorDataSources: new AuthorDataSources(knexConnection)
   }),
-  plugins: [sqlPlugin]
+  plugins: [sqlPlugin, redisPlugin]
 });
 
 // The `listen` method launches a web server.
